@@ -1,0 +1,8 @@
+1378. Replace Employee ID With The Unique Identifier
+
+sol. # Write your MySQL query statement below
+select EmployeeUNI.unique_id, Employees.name
+FROM Employees
+left join EmployeeUNI on   EmployeeUNI.id = Employees.id;
+
+link - https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier/description/?envType=study-plan-v2&envId=top-sql-50
